@@ -6,6 +6,6 @@ Exercises:
 1.5  ok
 1.6  ok
 1.7  ok (EOF == -1)
-1.8
-1.9
-1.10
+1.8  ok count_all.c
+1.9  ok rm_spaces.c
+1.10 ok visible.c
