@@ -1,4 +1,4 @@
-#include <stdi.o>
+#include <stdio.h>
 //count lines in input
 
 void main() {
@@ -9,6 +9,6 @@ void main() {
         if (c=='\n')
             ++nl;
     }
-    printf("%d\n");
+    printf("%d\n", nl);
 }
 
