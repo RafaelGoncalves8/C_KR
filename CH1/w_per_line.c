@@ -13,15 +13,17 @@ void main() {
     nl = nW = nc = 0;
 
     while ((c=getchar()) != EOF) {
+        putchar(c);
         ++nc;
         if (c=='\n')
             ++nl;
-        if (c==' ' || c == '\n' || c == '\t')
+        if (c==' ' || c == '\n' || c == '\t') {
             state = OUT;
+            putchar('\n');
+    }
         else if (state == OUT) {
             state = IN;
             ++nW;
         }
     }
-    printf("lines: %d WORDS: %d characteres: %d\n", nl, nW, nc);
 }
