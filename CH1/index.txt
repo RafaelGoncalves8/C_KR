@@ -9,4 +9,5 @@ Exercises:
 1.8  ok count_all.c
 1.9  ok rm_spaces.c
 1.10 ok visible.c
-1.11 ok wc2.c
+1.11    wc2.c
+1.12    w_per_line.c

@@ -20,7 +20,7 @@ void main() {
         if (c==' ' || c == '\n' || c == '\t' || c == '-')
             state = OUT;
         else if (state == OUT) { 
-            if ( 'a' <= c <= 'z' || 'A' <= c <= 'Z') {
+            if ( 'a' <= c && c  <= 'z' || 'A' <= c && c  <= 'Z') {
                 ++nW;
             }
             state = IN;
