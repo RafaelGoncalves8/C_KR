@@ -15,6 +15,6 @@ Exercises:
 1.14 ok c_hist.c
 1.15 ok f_temp_conversion.c
 1.16 ok longest_ln2.c
-1.17    longer80.c
+1.17 ok longer80.c
 1.18    rmwhite.c
 1.19    reverse.c
