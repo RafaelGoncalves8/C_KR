@@ -7,38 +7,52 @@
 #define OUT 0 //outside a WORD
 
 void main() {
-    int c, state, i;
+    int c, state, i, n, s;
     int word[17];
-    int len[18];
+    int len[19];
+
+    s = 16;
+    n = 0;
     
     len[0] = '[';
-    for (i = 1; i<17; ++i)
+    for (i = 1; i<18; ++i)
         len[i]=' ';
-    len[17] = ']';
+    len[18] = ']';
 
     for (i = 0; i<16; ++i)
         word[i] = ' ';
     word[16] = '|';
 
     state = OUT;
-    nl = nW = nc = 0;
 
     while ((c=getchar()) != EOF) {
         if (c==' ' || c == '\n' || c == '\t') {
-            
-            for (i = 1; i<n; ++i)
+            for (s ; s > 0; --s)
+                putchar(' ');
+            for (i = 1; i<=n && i < 18; ++i)
                 len[i]='#';
             state = OUT;
-            print("%d, %d", word[], len[]);
+            printf(" | ");
+            for (i = 0; i < 19; ++i)
+                printf("%c", len[i]);
             putchar('\n');
             n = 0;
+            s = 16;
+            for (i = 1; i<18; ++i)
+                len[i]=' ';
+            
     }
         else if (state == OUT) {
-            word[n] = c;
+            putchar(c);
             state = IN;
             ++n;
+            --s;
         }
-        else ++n;
+        else {
+            putchar(c); 
+            ++n;
+            --s;
+        }
 
 
     }
