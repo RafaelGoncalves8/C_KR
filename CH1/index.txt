@@ -14,3 +14,4 @@ Exercises:
 1.13    w_hist.c
 1.14    c_hist.c
 1.15 ok f_temp_conversion.c
+1.16 ok longest_ln2.c
