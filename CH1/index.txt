@@ -11,7 +11,7 @@ Exercises:
 1.10 ok visible.c
 1.11 ok wc2.c
 1.12 ok w_per_line.c
-1.13    w_hist.c
+1.13 ok w_hist.c
 1.14    c_hist.c
 1.15 ok f_temp_conversion.c
 1.16 ok longest_ln2.c
