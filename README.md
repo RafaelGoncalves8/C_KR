@@ -9,3 +9,8 @@ and the output will be a.out, or if you prefer:
 cc code_name.c -o code_name
 to compile your code in the output name desired
 ```
+Chapters:
+1 - Ok
+2 -
+
+Index with exercises inside each of the chapters directories
