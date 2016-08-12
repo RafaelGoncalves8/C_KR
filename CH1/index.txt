@@ -19,7 +19,7 @@ Exercises:
 1.18 ok rmwhite.c
 1.19 ok reverse.c
 1.20 ok detab.c
-1.21    entab.c
+1.21 ok entab.c
 1.22    split_ln.c
 1.23    rm_comments.c
 1.24    check.c
