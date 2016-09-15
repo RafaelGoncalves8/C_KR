@@ -22,4 +22,4 @@ Exercises:
 1.21 ok entab.c
 1.22 ok split_ln.c
 1.23 ok rm_comments.c
-1.24    check.c
+1.24 ok check.c
