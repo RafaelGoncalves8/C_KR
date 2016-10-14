@@ -1,6 +1,10 @@
 2.1  ok len_types.c
 2.2  ok logic_loop.c
 2.3  ok htoi.c
-2.4     squeeze.c
-2.5
-
+2.4  ok squeeze.c
+2.5  ok any.c
+2.6     setbits.c
+2.7     invert.c
+2.8     rightrot.c
+2.9     bitcount.c 
+2.10 ok lower.c 
