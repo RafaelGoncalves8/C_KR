@@ -1,6 +1,6 @@
 3.1  ok binsearch.c
 3.2  ok escape.c
 3.3  ok expand.c
-3.4   itoa.c
-3.5   itob.c
-3.6   itoa2.c
+3.4  ok itoa.c
+3.5  ok itob.c
+3.6  ok itoa2.c

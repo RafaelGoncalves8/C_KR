@@ -1,0 +1,8 @@
+5.1   getint.c
+5.2   getfloat.c
+5.3   strcat.c
+5.4   strend.c
+5.5   strncpy.c strncat.c strncmp.c
+5.6
+5.7   readlines.c
+5.8   day.c

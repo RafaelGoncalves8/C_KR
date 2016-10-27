@@ -1,0 +1,16 @@
+4.1  ok strindex.c
+4.2  ok atof.c
+4.3   calculator.c
+4.4   calculator.c
+4.5   calculator.c
+4.6   calculator.c
+4.7   aux.c
+4.8   aux.c
+4.9   aux.c
+4.10  aux.c
+4.##  RPNcalc (folder) - bonus exercise with headers
+4.11  getop.c
+4.12  itoa.c
+4.13  reverse.c
+4.14  swap.c
+
