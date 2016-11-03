@@ -8,9 +8,11 @@
 4.8   aux.c
 4.9   aux.c
 4.10  aux.c
-4.##  RPNcalc (folder) - bonus exercise with headers
 4.11  getop.c
 4.12  itoa.c
 4.13  reverse.c
 4.14  swap.c
+-----------------
+----  quicksort.c
+----  RPNcalc (folder) - bonus exercise with headers
 
