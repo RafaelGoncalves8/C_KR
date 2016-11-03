@@ -9,8 +9,21 @@ and the output will be a.out, or if you prefer:
 cc code_name.c -o code_name
 to compile your code in the output name desired
 ```
-Chapters:
-1 - Ok
-2 -
 
-Index with exercises inside each of the chapters directories
+__Chapters:__
+```
+1 - Ok - A Tutorial Introduction
+2 - Types, Operators and Expressions
+3 - Ok - Control Flow
+4 - Functions and Program Structure
+5 - Pointers and Arrays
+6 - Structures
+7 - Input and Output
+8 - The UNIX System Interface
+--
+Appendix A - Reference Manual
+Appendix B - Standard Library
+Appendix C - Summary of Changes
+```
+
+Index with a list of exercises and answers is inside each of the chapters directories
